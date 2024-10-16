@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>HealthLink</h1>
+        <nav>
+            <img src="healthlink logo.png" width="10%" style=" border-radius: 50%; float: left; position: absolute;"> 
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#appointment">Appointment</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Welcome to HealthCare Clinic</h2>
+        <p>Your health is our priority. We provide the best medical services.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <h3>General Check-up</h3>
+            <p>Comprehensive health check-ups by expert doctors.</p>
+        </div>
+        <div class="service-card">
+            <h3>Dental Care</h3>
+            <p>Top-most dental treatments and oral health care.</p>
+        </div>
+        <div class="service-card">
+            <h3>Cardiology</h3>
+            <p>Heart care services by our team of cardiologists.</p>
+        </div>
+        <div class="service-card">
+            <h3>Orthology</h3>
+            <p>Heart care services by our team of Orthology.</p>
+        </div>
+    </section>
+
+    <section id="doctors" class="section">
+        <h2>Meet Our Doctors</h2>
+        <div class="doctor-card">
+            <h3>Dr. Anushini ananth</h3>
+            <p>Cardiologist</p>
+        </div>
+
+        <div class="doctor-card">
+            <h3>Dr. Bazeer Ahamad</h3>
+            <p>Orthologist</p>
+        </div>
+        <div class="doctor-card">
+            <h3>Dr. Narmitha</h3>
+            <p>Dentist</p>
+        </div>
+        <div class="doctor-card">
+            <h3>Dr. Harini</h3>
+            <p>General Physician</p>
+        </div>
+       
+
+        <div class="doctor-card">
+            <h3>Dr. Hari Hara Sudhan </h3>
+            <p>Psycologist</p>
+        </div>
+    </section>
+
+    <section id="appointment" class="section">
+        <h2>Book an Appointment</h2>
+        <form id="appointment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <input type="submit" value="Book Appointment">
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: info@healthLink.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
